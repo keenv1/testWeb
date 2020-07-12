@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <title>BlackBord</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+          <div class="root">
+              <div class="bur">
+                <ul>
+                  <li> <img class="left" src="pictures/left.svg" alt=""> <a class="home" href="indexx.html">home</a> </li>
+                  <li> <img class="img-bur" src="pictures/home.svg" alt=""> <a href="#">login</a> </li>
+                  <li><img class="left-1" src="pictures/left.svg" alt=""><a href="#">menu</a> </li>
+                  <li><img class="left-2" src="pictures/left.svg" alt=""><a href="#">support</a> </li>
+                </ul>
+                <p id="tiime"> Stay Home </p>
+                <img src="pictures/balckbord1.png" alt="blackbord">
+              </div>
+              <span class="s-line" ></span>
+            <div class="up-page">
+            <div class="up-img">
+              <h1>Welcome to blackbord !!</h1>
+            </div>
+            <div class="parag">
+                  <div class="table-full">
+
+                      <div class="w-box">
+                      <a href="HomeCourses.html"><img src="pictures/tv.svg" alt="">
+                      <h3>دوراتي</h3></a>
+                      <p>شوف دروسك في اي وقت وبكل سهولة</p>
+                      <a href="HomeCourses.html"><h2>ادخل</h2></a>
+                      </div>
+                      <div class="w-box">
+                        <a href="Grades.html">  <img src="pictures/grats.svg" alt="">
+                            <h3>درجاتي</h3></a>
+                            <p>انتبه على درجاتك ولاتجيب العيد ! </p>
+                          <a href="Grades.html"><h2>ادخل</h2></a>
+                      </div>
+                      <div class="w-box">
+                        <a href="#">  <img src="pictures/email.svg" alt="">
+                          <h3>بريدك الإكتروني</h3></a>
+                          <p>ارسل واجباتك عبر البريد</p>
+                          <a href="Grades.html"><h2>ادخل</h2></a>
+                      </div>
+                      <div class="w-box">
+                        <a href="#">  <img src="pictures/ad.svg" alt="">
+                        <h3>الأعلانات</h3></a>
+                        <p> كل الاعلانات ومواعيد الاختبارات بتحصلها هنا</p>
+                        <a href="Grades.html"><h2>ادخل</h2></a>
+                    </div>
+                      <div class="w-box">
+                        <a href="plan.html">  <img src="pictures/plan.svg" alt="">
+                        <h3>الخطة</h3></a>
+                        <p>شوف خطتك الدراسية وخطط على راحتك</p>
+                        <a href="plan.html"><h2>ادخل</h2></a>
+                      </div>
+                      <div class="w-box">
+                        <a href="TeachingStaff.html">  <img src="pictures/face.svg" alt="">
+                        <h3>طاقم المعلمين</h3></a>
+                        <p>تواصل مع المعلمين بكل سهولة</p>
+                        <a href="TeachingStaff.html"><h2>ادخل</h2></a>
+                      </div>
+                      <div class="w-box">
+                        <a href="#">  <img src="pictures/gols.svg" alt="">
+                        <h3>الأهداف</h3></a>
+                        <p>اهداف balckbord</p>
+                        <a href=""><h2>ادخل</h2></a>
+                      </div>
+                      <div class="w-box">
+                        <a href="#">  <img src="pictures/bs.svg" alt="">
+                        <h3>معلوماتي الشخصية</h3></a>
+                        <p>ملفك الشخصي فيه معلوماتك الحساسه</p>
+                        <a href=""><h2>ادخل</h2></a>
+                      </div>
+                      <div class="w-box">
+                        <a href="#">  <img src="pictures/logout.svg" alt="">
+                        <h3>خروج</h3></a>
+                        <p>نشوفك على خير</p>
+                        <a href=""><h2>اخرج</h2></a>
+                      </div>
+                  </div>
+            </div>
+            </div>
+                  <!-- end page -->
+            <footer>
+              <div class="line-ss"></div>
+              <div class="img-fotter">
+                <!-- <img src="bb.png" alt=""> -->
+              </div>
+              <div class="fotter-wordpare">
+                <div class="singel-fotter">
+                <h2>company</h2>
+                <p>paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence</p>
+                </div>
+                <div class="singel-fotter">
+                  <h2>navigation</h2>
+                    <ul>
+                      <li>
+                        <a href="#">home</a>
+                        <a href="#">about</a>
+                        <a href="#">help</a>
+                      </li>
+                    </ul>
+                    </div>
+                    <div class="singel-fotter">
+                      <h2>Get Help</h2>
+                      <ul>
+                        <li>
+                          <a href="#">call</a>
+                          <a href="#">emeil</a>
+                          <a href="#">service</a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </footer>
+     </div>    <!--root-->
+                <script type="text/javascript">
+                                  setInterval(()=>{
+
+                               let date = new Date();
+                               let m = date.getMinutes();
+                               let h = date.getHours();
+                               let s = date.getSeconds();
+                             document.getElementById('time').innerText=`time is ${h}:${m}:${s}`;
+                              console.log(`time is ${h}:${m}:${s}`);
+                               },1000)
+            </script>
+  </body>
+</html>
